@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asentus</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="header__container container">
+            <a href="#home" class="header__logo logo">
+            </a>
+            <nav class="header__menu container">
+                <ul class="navigation">
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a class="nav-link" href="#home">Home</a>
+                    </div>
+                </li>
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </div>
+                </li>
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a  class="nav-link" href="#showcase">About</a>
+                </div>
+                </li>
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a class="nav-link" href="#products">Products</a>
+                </div>
+                </li>
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a class="nav-link" href="#form">FAQ</a>
+                </div>
+                </li>
+                <li class="navigation__links">
+                    <div class="navigation__links__block">
+                    <span class="nav-link__line_hover"></span>
+                    <a class="nav-link" href="#form">Contact</a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu">
+            <input class="visually-hidden" id='menu' type="checkbox">
+            <label class="menu__btn" for="menu">
+                <span></span>
+            </label>
+            <ul class="menu-box">
+                <li class="menu-box__block">
+                    <a href="#home" class="menu-box__block__item">Home</a>
+                </li>
+                <li class="menu-box__block">
+                    <a href="#pricing" class="menu-box__block__item">Pricing</a>
+                </li>
+                <li class="menu-box__block">
+                    <a href="#showcase" class="menu-box__block__item">About</a>
+                </li>
+                <li class="menu-box__block">
+                    <a href="#products" class="menu-box__block__item">Products</a>
+                </li>
+                <li class="menu-box__block">
+                    <a href="#form" class="menu-box__block__item">FAQ</a>
+                </li>
+                <li class="menu-box__block">
+                    <a href="#form" class="menu-box__block__item">Contact</a>
+                </li>
+        </ul>
+        </div> <!--hamburger-menu-->
+
+    </div>
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="slider__items">
+                <input class="slider__items__radio-btn1 radio-btn visually-hidden" type="radio" name="radio-btn" id="radio1" checked>
+                <input class="slider__items__radio-btn2 radio-btn visually-hidden" type="radio" name="radio-btn" id="radio2" >
+                <div class="slider__items__slide1 slide s1">
+                    <div class="slider__items__container container">
+                        <div class="common-information">
+                            <h1 class="heading-h1">Hi-tech design</h1>
+                            <p class="common-information__description">Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Repudiandae aperiam repellat quo veniam inventore autem eveniet 
+                            </p>
+                            <a class="button-link common-information__button-link">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__items__slide2 slide s2">
+                    <div class="slider__items__container container">
+                        <div class="common-information">
+                            <h1 class="heading-h1">Hi-tech design</h1>
+                            <p class="common-information__description">Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Repudiandae aperiam repellat quo veniam inventore autem eveniet 
+                            </p>
+                            <a class="button-link common-information__button-link">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__navigation container">
+                <label class="slider__navigation__bar bar" for="radio1"></label>
+                <label class="slider__navigation__bar bar" for="radio2"></label>
+            </div>
+            
+        </section>
+
+        <section id="about" class="achievements">
+            <div class="container achievements__container">
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-info"></i>
+                    <h3 class="heading-h3 achievements__heading">Art Of Coding</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-tablet-alt"></i>
+                    <h3 class="heading-h3 achievements__heading">Responsive Design</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-medal"></i>
+                    <h3 class="heading-h3 achievements__heading">Feature Rich</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-file-alt"></i>
+                    <h3 class="heading-h3 achievements__heading">Useful Documentation</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-stopwatch"></i>
+                    <h3 class="heading-h3 achievements__heading">Fast Delivery</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+                <div class="achievements__items">
+                    <i class="achievements__icons fas fa-medal"></i>
+                    <h3 class="heading-h3 achievements__heading">Free Plugins</h3>
+                    <p class="achievements__description">Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="latest-products">
+            <div class="container latest-products__container">
+                <h3 class="latest-products__heading heading-h3">
+                Latest Products
+                </h3>
+                <p class="latest-products__description description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Beatae laborum recusandae deserunt 
+                    consequatur totam corporis dolores ipsa, ipsum ad iste consectetur, non voluptate voluptatem culpa porro corrupti minima. Porro, minus!
+                </p>
+
+                <div class="latest-products__gallery gallery">
+
+                    <div class="latest-products__gallery__items">
+                        <div class="gallery__images latest-products__gallery__img1">
+                            <img class="gallery__img" src="./assets/img/970x647/01.jpg" alt="">
+                        </div>
+                        
+                        <div class="latest-products__gallery__items__heading">
+                            <h4 class="heading-h4">Triangle Roof</h4>
+
+                            <h5 class="gallery__items__heading__heading-h5 heading-h5">Management</h5>
+                        </div>
+                        <p class="description latest-products__gallery__description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Consequuntur quibusdam voluptates blanditiis 
+                            necessitatibus at.
+                        </p>
+                        <div class=" navigation__links">
+                            <div class="latest-products__gallery__items__block navigation__links__block">
+                                <span class="nav-link__line_hover"></span>
+                                <a class="nav-link latest-products__gallery__link" href="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="latest-products__gallery__items">
+                        <div class="gallery__images latest-products__gallery__img2">
+                            <img class="gallery__img" src="./assets/img/970x647/02.jpg" alt="">
+                        </div>
+                        <div class="latest-products__gallery__items__heading">
+                            
+                            <h4 class="heading-h4">Curved Corners</h4>
+                            <h5 class="gallery__items__heading__heading-h5 heading-h5">Development</h5>
+                        </div>
+                        <p class="description latest-products__gallery__description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Consequuntur quibusdam voluptates blanditiis 
+                            necessitatibus at.
+                        </p>
+                        <div class="navigation__links">
+                            <div class="navigation__links__block">
+                                <span class="nav-link__line_hover"></span>
+                                <a class="nav-link latest-products__gallery__link" href="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="latest-products__gallery__items">
+                        <div class="gallery__images latest-products__gallery__img3">
+                            <img class="gallery__img" src="./assets/img/970x647/03.jpg" alt="">
+                        </div>
+                        <div class="latest-products__gallery__items__heading">
+                            
+                            <h4 class="heading-h4">Bird On Green</h4>
+                            <h5 class="gallery__items__heading__heading-h5 heading-h5">Design</h5>
+                        </div>
+                        <p class="description latest-products__gallery__description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Consequuntur quibusdam voluptates blanditiis 
+                            necessitatibus at.
+                        </p>
+                        <div class="navigation__links">
+                            <div class="navigation__links__block">
+                                <span class="nav-link__line_hover"></span>
+                                <a class="nav-link latest-products__gallery__link" href="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>    <!--   latest-products__gallery gallery -->
+            </div> <!--  container latest-products__container -->
+        </section>
+
+        <section id="clients" class="clients">
+            <div class="container clients__container">
+                <a class="clients__container__items clients__container__item1" href="https://discord.com/"><img class="clients__container__items__img" src="./assets/img/clients/01.png" alt=""></a>
+                <a class="clients__container__items clients__container__item2" href="https://www.netflix.com/"><img class="clients__container__items__img" src="./assets/img/clients/02.png" alt=""></a>
+                <a class="clients__container__items clients__container__item3" href="https://www.broadcom.com/"><img class="clients__container__items__img" src="./assets/img/clients/03.png" alt=""></a>
+                <a class="clients__container__items clients__container__item4" href="https://hoop.photo/"><img class="clients__container__items__img" src="./assets/img/clients/04.png" alt=""></a>
+                <a class="clients__container__items clients__container__item5" href="https://www.airbnb.ru/"><img class="clients__container__items__img" src="./assets/img/clients/05.png" alt=""></a>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container reviews__container">
+                <h3 class="reviews__h3 heading-h3">
+                    Customer Rewiews
+                </h3>
+
+                <div class="review__slider">
+
+                    <input class="slider__radio-btn1 visually-hidden" type="radio" name="radio-btn" id="radio1" >
+                    <input class="slider__radio-btn2 visually-hidden" type="radio" name="radio-btn" id="radio2" checked >
+
+                    <div class="reviews__container__items reviewer__slider__slide1 ">
+                        <i class="reviews__container__items__quote fas fa-quote-left"></i>
+                        <div class="reviews__container__items__review description review ">
+                            <p class="reviews__container__items__review__text description review ">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Eveniet minima mollitia 
+                                cupiditate culpa exercitationem aliquid, 
+                                nesciunt fugiat sunt nemo adipisci!
+                                <br>
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur, 
+                                adipisicing elit. Sit numquam sint quod?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Fuga voluptatem nesciunt esse, iure voluptatum ipsam magni! 
+                                Similique incidunt veritatis velit.
+                            </p>
+                            <br>
+                            <p class="description reviewer reviews__container__items__reviewer">
+                                <span class="reviewer__name">John Milner</span>
+                                ,
+                                <span class="reviewer__position">Metronic Customer</span>
+                            </p>
+                    </div>
+                    
+
+                    <div class="reviews__container__items reviewer__slider__slide2">
+                        <i class="reviews__container__items__quote fas fa-quote-left"></i>
+                        <div class="reviews__container__items__review description review ">
+                            <p class="reviews__container__items__review__text description review ">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Eveniet minima mollitia 
+                                cupiditate culpa exercitationem aliquid, 
+                                nesciunt fugiat sunt nemo adipisci!
+                                <br>
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur, 
+                                adipisicing elit. Sit numquam sint quod?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Fuga voluptatem nesciunt esse, iure voluptatum ipsam magni!
+                                Similique incidunt veritatis velit. Lorem ipsum dolor sit amet.
+                            </p>
+                            <br>
+
+                            <p class="description reviewer reviews__container__items__reviewer">
+                                <span class="reviewer__name">Alex Milner</span>
+                                ,
+                                <span class="reviewer__position">Metronic Customer</span>
+                            </p>
+                    </div>
+
+                </div><!--reviewer__slider-->
+            </div> <!--container reviews__container-->
+
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="pricing__container container">
+
+                <div class="pricing__container__items">
+                    <i class="fas fa-info"></i>
+                    <h4 class="heading-h4 pricing__container__items__h4">
+                        Starter Kit 
+                        <span class="heading-h4__dollar">$</span> 
+                        49
+                    </h4>
+                    <p class="pricing__container__items__description description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, temporibus?
+                    </p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Basic Feachures</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Up to 5 products</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>50 Users Panels</p>
+                    <a href="" class="button-link button-choose">Choose</a>
+                </div>
+
+                <div class="pricing__container__items">
+                    <i class="achievements__icons fas fa-medal"></i>
+                    <h4 class="heading-h4 pricing__container__items__h4">
+                        Professional 
+                        <span class="heading-h4__dollar">$</span> 
+                        149
+                    </h4>
+                    <p class="pricing__container__items__description description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, temporibus?
+                    </p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Basic Feachures</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Up to 10 products</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>100 Users Panels</p>
+                    <a href="" class="button-link button-choose">Choose</a>
+                </div>
+
+                <div class="pricing__container__items">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4 class="heading-h4 pricing__container__items__h4">
+                        Advanced 
+                        <span class="heading-h4__dollar">$</span> 
+                        249
+                    </h4>
+                    <p class="pricing__container__items__description description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, temporibus?
+                    </p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Extended Feachures</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Unlimited products</p>
+                <p class="pricing__container__items__position description">
+                        <span class="dash"></span>Unlimited Users Panels</p>
+                    <a href="" class="pricing__container__items__button button-link button-choose">Choose</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our-clients">
+            <div class="our-clients__image">
+
+            </div>
+            <div class="our-clients__container container">
+                <h3 class="our-clients__container__h3 heading-h3">Our Clients</h3>
+                <p class="our-clients__container__description description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Cupiditate dignissimos minima modi atque quidem totam a quod quam laudantium 
+                    nostrum dolores labore, provident magni porro reprehenderit deserunt quo nisi
+                    fugiat.Amet ab molestiae nobis quo numquam a aspernatur explicabo illo!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Consectetur exercitationem pariatur maxime perferendis delectus inventore.
+                </p>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase">
+            <div class="showcase__container container">
+                <h3 class="showcase__container__h3 heading-h3">Showcase</h3>
+                <p class="showcase__container__description description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Maiores qui ipsam, saepe assumenda eum repellendus.
+                </p>
+                <div class="showcase__container__img-gallery img-gallery">
+                    <div class="img-gallery__img-block img-gallery__img-block1">
+                        <div class="img-gallery__img-block_hover img-gallery__img-block1_hover">
+                            <h6 class="img-gallery__img-block__h6_hover img-gallery__img-block1__h6_hover">
+                                Art Of Coding
+                            </h6>
+                            <p class="img-gallery__img-block__description_hover img-gallery__img-block1_hover">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-gallery__img-block img-gallery__img-block2">
+                        <div class="img-gallery__img-block_hover img-gallery__img-block2_hover">
+                            <h6 class="img-gallery__img-block__h6_hover img-gallery__img-block2__h6_hover">
+                                Clean Design
+                            </h6>
+                            <p class="img-gallery__img-block__description_hover img-gallery__img-block2_hover">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-gallery__img-block img-gallery__img-block3">
+                        <div class="img-gallery__img-block_hover img-gallery__img-block3_hover">
+                            <h6 class="img-gallery__img-block__h6_hover img-gallery__img-block3__h6_hover">
+                                Clean Design
+                            </h6>
+                            <p class="img-gallery__img-block__description_hover img-gallery__img-block3_hover">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-gallery__img-block img-gallery__img-block4">
+                        <div class="img-gallery__img-block_hover img-gallery__img-block4_hover">
+                            <h6 class="img-gallery__img-block__h6_hover img-gallery__img-block4__h6_hover">
+                                Clean Design
+                            </h6>
+                            <p class="img-gallery__img-block__description_hover img-gallery__img-block4_hover">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-gallery__img-block img-gallery__img-block5">
+                        <div class="img-gallery__img-block_hover img-gallery__img-block5_hover">
+                            <h6 class="img-gallery__img-block__h6_hover img-gallery__img-block5__h6_hover">
+                                Clean Design
+                            </h6>
+                            <p class="img-gallery__img-block__description_hover img-gallery__img-block5_hover">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <section class="footer__container__connection">
+                    <div class="footer__container__connection__nav nav-links">
+                        <a href="#home" class="nav-links__link">Home</a>
+                        <a href="#showcase" class="nav-links__link">About</a>
+                        <a href="#products" class="nav-links__link">Products</a>
+                        <a href="#pricing" class="nav-links__link">Pricing</a>
+                        <a href="#clients" class="nav-links__link">Clients</a>
+                        <a href="#form" class="nav-links__link">Careers</a>
+                        <a href="#form" class="nav-links__link">Contact</a>
+                        <a href="#showcase" class="nav-links__link">Terms</a>
+                        
+                    </div>
+                    <div class="footer__container__connection__networks">
+                        <a href="" class="networks__links nav-links__link">Twitter</a>
+                        <a href="" class="networks__links nav-links__link">Facebook</a>
+                        <a href="" class="networks__links nav-links__link">Instagram</a>
+                        <a href="" class="networks__links nav-links__link">Youtube</a>
+                    </div>
+                    <form id="form" action="" class="footer__container__connection__form form">
+                        <h3 class="footer__container__connection__form__h4 heading-h4">
+                            Send Us A Note
+                        </h3>
+                        <input type="text" class="footer__container__connection__form__input form__input" name="name" placeholder="Name">
+                        <input type="email" class="footer__container__connection__form__input form__input" name="email" placeholder="Email">
+                        <input type="text" class="footer__container__connection__form__input form__input" name="phone" placeholder="Phone">
+                        <textarea type="text" class="footer__container__connection__form__input form__input form__input__message" name="message" placeholder="Message"></textarea>
+                        <button class="button button-link" type="submit">Submit</button>
+                    </form>
+                </section>
+            </div>
+
+            <footer class="footer__container__info info">
+                <div class="info__container container">
+                    <a class="footer-logo logo">
+                        
+                    </a>
+                    <div class="footer__container__info__links info__links">
+                        <div>
+                        <a href="" class="info__links__link">Asentus</a>
+                        <span class="info__links__text description">Theme</span> 
+                    </div>
+                        <span class="info__links__text description"> Powered by</span>
+                        <a href="" class="info__links__link">KeenTheme</a>
+                    </div>
+                </div>
+                
+            </footer>
+
+            <a class="button-top" href="#home">Top</a>
+        </footer>
+
+    </main>
+</body>
+</html>
