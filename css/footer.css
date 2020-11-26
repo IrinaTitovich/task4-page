@@ -12,31 +12,7 @@
 
     overflow: hidden;
 }
-.button-top{
-    position: sticky;
-    bottom: 1em;
-    right: 2em;
-    margin: 1em;
 
-    justify-self: flex-end;
-    align-self: flex-end;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 3em;
-    height: 3em;
-    border-radius: 0.5em;
-
-    color:rgba(250, 250, 250, 0.8);
-    background-color: rgba(250, 250, 250, 0.3);
-
-    opacity: 0.3;
-    transition: .2s;
-}
-.button-top:hover{
-    opacity: 0.8;
-}
 
 .footer__container{
     height: 70%;
